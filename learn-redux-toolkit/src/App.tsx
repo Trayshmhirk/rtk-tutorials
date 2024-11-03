@@ -8,8 +8,6 @@ function App() {
 
    const { data = [], isError } = useFetchBreedQuery(numDogs);
 
-   console.log(data);
-
    return (
       <div className="w-screen h-screen flex flex-col gap-10 items-center justify-center">
          <div className="flex flex-col items-center gap-6">
